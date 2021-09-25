@@ -1,0 +1,46 @@
+
+@media (max-width:1300px){
+
+    .left{
+
+        width: 50%;
+        height: auto;
+    }
+    .right{
+        width: 50%;
+        height: auto;
+    }
+
+}
+
+@media (max-width:900px){
+    .content{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .left{
+        width: auto;
+        padding: 20px 20px;
+        height: auto;
+        
+    }
+    .right{
+        width: auto;
+        padding-bottom: 20px;
+        height: auto;
+    }
+    .profile{
+        padding-top: 30px;
+        width: 200px;
+    }
+    .right h1{
+        font-size: 20px;
+    }
+    .right p{
+        font-size: 12px;
+    }
+    .about{
+        width: 100%;
+       
+    }
+}
